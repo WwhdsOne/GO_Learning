@@ -37,6 +37,14 @@ func main() {
 		},
 		Number: 1001,
 	}
+	accounts[1002] = &bankcore.Account{
+		Customer: bankcore.Customer{
+			Name:    "Mary",
+			Address: "New York, New York",
+			Phone:   "(212) 555 0174",
+		},
+		Number: 1002,
+	}
 	http.HandleFunc("/statement", statement)
-	log.Fatal(http.ListenAndServe("localhost:8000", nil))
+	log.Fatal(http.ListenAndServe("0.0.0.0:8000", nil))
 }
