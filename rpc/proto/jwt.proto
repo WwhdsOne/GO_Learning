@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option go_package = "./;jwt_grpc";
+
+package jwt_grpc;
+
+
+// 请求消息，包含用户名和密码
+message LoginReq {
+  string username = 1;
+  string password = 2;
+}
+// 登出信息,包含jwt令牌
+message LogoutReq {
+  string jwt = 1;
+  string refresh_token = 2;
+}
+
+// 响应消息，包含状态码和消息
+message Response {
+  int32 status_code = 1;
+  string message = 2;
+}
+
+message TokenResponse {
+  Response response = 1;  // 嵌套 Response 消息
+  string jwt = 2;
+  string refresh_token = 3;
+}
+
+// 请求消息，包含用户ID和消息
+message refreshReq {
+  string refresh_token = 1;
+}
+
+// 定义服务
+service JwtService {
+  rpc Login (LoginReq) returns (TokenResponse);
+  rpc RefreshToken (refreshReq) returns (TokenResponse);
+  rpc Logout (LogoutReq) returns (Response);
+}

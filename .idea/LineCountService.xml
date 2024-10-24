@@ -6,41 +6,10 @@
         <entry key="$PROJECT_DIR$">
           <value>
             <CachedData>
-              <option name="branch" value="" />
-              <option name="fileLineCounts">
-                <map>
-                  <entry key="$PROJECT_DIR$/defer,recover,panic/defer.go" value="11" />
-                  <entry key="$PROJECT_DIR$/defer,recover,panic/go.mod" value="4" />
-                  <entry key="$PROJECT_DIR$/defer,recover,panic/panic.go" value="20" />
-                  <entry key="$PROJECT_DIR$/defer,recover,panic/panic_.go" value="27" />
-                  <entry key="$PROJECT_DIR$/defer,recover,panic/recover.go" value="16" />
-                  <entry key="$PROJECT_DIR$/hello World/go.mod" value="4" />
-                  <entry key="$PROJECT_DIR$/hello World/hello.go" value="8" />
-                  <entry key="$PROJECT_DIR$/packaging/calc/go.mod" value="4" />
-                  <entry key="$PROJECT_DIR$/packaging/calc/sum.go" value="6" />
-                  <entry key="$PROJECT_DIR$/packaging/go.work" value="6" />
-                  <entry key="$PROJECT_DIR$/packaging/hello/go.mod" value="6" />
-                  <entry key="$PROJECT_DIR$/packaging/hello/hello.go" value="11" />
-                  <entry key="$PROJECT_DIR$/select/select语句.go" value="31" />
-                  <entry key="$PROJECT_DIR$/select/无限通道.go" value="41" />
-                  <entry key="$PROJECT_DIR$/select/通道累加.go" value="43" />
-                  <entry key="$PROJECT_DIR$/函数定义/max.go" value="18" />
-                  <entry key="$PROJECT_DIR$/函数定义/method.go" value="17" />
-                  <entry key="$PROJECT_DIR$/函数定义/函数作实参.go" value="15" />
-                  <entry key="$PROJECT_DIR$/函数定义/闭包.go" value="18" />
-                  <entry key="$PROJECT_DIR$/变量定义/go.mod" value="4" />
-                  <entry key="$PROJECT_DIR$/变量定义/iota.go" value="20" />
-                  <entry key="$PROJECT_DIR$/变量定义/变量.go" value="27" />
-                  <entry key="$PROJECT_DIR$/指针/example.go" value="13" />
-                  <entry key="$PROJECT_DIR$/指针/quickSort.go" value="42" />
-                  <entry key="$PROJECT_DIR$/指针/指针数组.go" value="21" />
-                  <entry key="$PROJECT_DIR$/数组，切片，结构，映射/数组和切片.go" value="19" />
-                  <entry key="$PROJECT_DIR$/数组，切片，结构，映射/映射.go" value="24" />
-                </map>
-              </option>
-              <option name="id" value="" />
-              <option name="key" value="0" />
-              <option name="timestamp" value="1725762572875" />
+              <option name="branch" value="master" />
+              <option name="id" value="7cc32639e82575acdcd02a9d644784c462af27c3" />
+              <option name="key" value="1" />
+              <option name="timestamp" value="1729748797776" />
             </CachedData>
           </value>
         </entry>
