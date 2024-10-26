@@ -1,6 +1,9 @@
 package main
 
-import "github.com/WwhdsOne/Wlog/WLog"
+import (
+	"github.com/WwhdsOne/Wlog"
+	"github.com/WwhdsOne/Wlog/wlcore"
+)
 
 /*
 localFileWriter:
@@ -16,13 +19,19 @@ kafkaWriter:
 	port: 9092
 */
 func main() {
-
-	l := WLog.Default()
-	lo := &WLog.Loptions{
-		Package: "testPackage",
-		Option:  []any{"LOL", 123},
+	ls := &wlcore.LogSummary{
+		LogFormatConfig: &wlcore.LogFormatConfig{
+			Level:           WLog.DebugLevel,
+			Prefix:          "TEST-ZAP-JSON",
+			IsJson:          false,
+			EncoderLevel:    WLog.CapitalColorLevelEncoder,
+			StacktraceLevel: WLog.ErrorLevel,
+		},
 	}
-	l.Debug("Debug %s %d", lo)
-	l.Info("Info %s %d", lo)
-	l.Warn("Warn %s %d", lo)
+	newDefaultLogger := WLog.Build(ls)
+	WLog.ReplaceDefault(newDefaultLogger)
+	loptions := wlcore.Loptions{
+		Option: []any{1, "LOL"},
+	}
+	newDefaultLogger.Info("LOL %d %s", &loptions)
 }

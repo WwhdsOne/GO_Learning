@@ -1,0 +1,24 @@
+{"level":"info","time":"2024-10-24 14:52:53.886","msg":"[/Users/wwhds/Library/Caches/JetBrains/GoLand2024.2/tmp/GoLand/___go_build_WLogTest] package = testPackage Hello World%!(EXTRA string=LOL, int=123)"}
+{"level":"error","time":"2024-10-24 14:52:53.886","msg":"[/Users/wwhds/Library/Caches/JetBrains/GoLand2024.2/tmp/GoLand/___go_build_WLogTest] package = testPackage Hello Error%!(EXTRA string=LOL, int=123)","stacktrace":"github.com/WwhdsOne/Wlog/WLog.(*Logger).Error\n\t/Users/wwhds/go/pkg/mod/github.com/!wwhds!one/!wlog@v0.0.0-20241023063220-56fc034212df/WLog/WLog.go:98\nmain.main\n\t/Users/wwhds/Programming_Learning/Project/Go_Learning/WLogTest/main.go:33\nruntime.main\n\t/Users/wwhds/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.2.darwin-arm64/src/runtime/proc.go:272"}
+{"level":"debug","time":"2024-10-24 14:52:53.886","msg":"[/Users/wwhds/Library/Caches/JetBrains/GoLand2024.2/tmp/GoLand/___go_build_WLogTest] package = testPackage Hello Debug%!(EXTRA string=LOL, int=123)"}
+{"level":"info","time":"2024-10-24 15:31:42.955","msg":"[[/Users/wwhds/Library/Caches/JetBrains/GoLand2024.2/tmp/GoLand/___go_build_WLogTest]] | package = testPackage | Hello World%!(EXTRA string=LOL, int=123)"}
+{"level":"error","time":"2024-10-24 15:31:42.956","msg":"[[/Users/wwhds/Library/Caches/JetBrains/GoLand2024.2/tmp/GoLand/___go_build_WLogTest]] | package = testPackage | Hello Error%!(EXTRA string=LOL, int=123)","stacktrace":"github.com/WwhdsOne/Wlog.(*Logger).Error\n\t/Users/wwhds/go/pkg/mod/github.com/!wwhds!one/!wlog@v0.0.0-20241024070518-82943a802d6e/WLog.go:110\nmain.main\n\t/Users/wwhds/Programming_Learning/Project/Go_Learning/WLogTest/main.go:34\nruntime.main\n\t/Users/wwhds/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.2.darwin-arm64/src/runtime/proc.go:272"}
+{"level":"debug","time":"2024-10-24 15:31:42.956","msg":"[[/Users/wwhds/Library/Caches/JetBrains/GoLand2024.2/tmp/GoLand/___go_build_WLogTest]] | package = testPackage | Hello Debug%!(EXTRA string=LOL, int=123)"}
+2024-10-24 15:33:32.618	[34mINFO[0m	[TEST-ZAP-JSON] | package = testPackage | Hello World%!(EXTRA string=LOL, int=123)
+2024-10-24 15:33:32.620	[31mERROR[0m	[TEST-ZAP-JSON] | package = testPackage | Hello Error%!(EXTRA string=LOL, int=123)
+github.com/WwhdsOne/Wlog.(*Logger).Error
+	/Users/wwhds/go/pkg/mod/github.com/!wwhds!one/!wlog@v0.0.0-20241024070518-82943a802d6e/WLog.go:110
+main.main
+	/Users/wwhds/Programming_Learning/Project/Go_Learning/WLogTest/main.go:41
+runtime.main
+	/Users/wwhds/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.2.darwin-arm64/src/runtime/proc.go:272
+2024-10-24 15:33:32.620	[35mDEBUG[0m	[TEST-ZAP-JSON] | package = testPackage | Hello Debug%!(EXTRA string=LOL, int=123)
+2024-10-24 15:37:58.917	[34mINFO[0m	[TEST-ZAP-JSON] | package = testPackage | Hello World%!(EXTRA string=LOL, int=123)
+2024-10-24 15:37:58.918	[31mERROR[0m	[TEST-ZAP-JSON] | package = testPackage | Hello Error%!(EXTRA string=LOL, int=123)
+github.com/WwhdsOne/Wlog.(*Logger).Error
+	/Users/wwhds/go/pkg/mod/github.com/!wwhds!one/!wlog@v0.0.0-20241024070518-82943a802d6e/WLog.go:110
+main.main
+	/Users/wwhds/Programming_Learning/Project/Go_Learning/WLogTest/main.go:41
+runtime.main
+	/Users/wwhds/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.2.darwin-arm64/src/runtime/proc.go:272
+2024-10-24 15:37:58.918	[35mDEBUG[0m	[TEST-ZAP-JSON] | package = testPackage | Hello Debug%!(EXTRA string=LOL, int=123)
